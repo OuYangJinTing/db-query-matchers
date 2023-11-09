@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         ruby-version: ['2.5', '2.6', '2.7', '3.0']
-        gemfile: [ rails_5_2, rails_6_0, rails_6_1, rails_7_0, rails_7_1 ]
+        gemfile: [ rails_5_2, rails_6_0, rails_6_1, rails_7_0, rails_7_1  ]
         experimental: [false]
 
         include:
